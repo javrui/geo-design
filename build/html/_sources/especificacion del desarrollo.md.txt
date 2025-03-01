@@ -49,7 +49,7 @@ Los datos quedarán almacenados en disco como ficheros estructurados, pero no se
 
 La aplicación permitirá realizar la simulación y ajuste interactivo de respresentaciones gráficas de ciertos ensayos, almacenando los datos resultantes como registro simulado.
 
-## Menús de la aplicación
+### Menús de la aplicación
 
 (Por definir)
 
