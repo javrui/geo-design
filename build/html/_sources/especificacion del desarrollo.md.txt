@@ -69,10 +69,6 @@ Pendiente de definir
 
 [Especificaciones_de_cada_ensayo](especificaciones_de_cada_ensayo.md)
 
-## Análisis de datos
-
-[Análisis de datos](analisis_de_datos.md)
-
 
 ## Entorno operativo de la aplicación
 

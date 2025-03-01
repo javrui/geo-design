@@ -8,7 +8,7 @@ Gestión de informes de suelos
    :caption: Contenido:
 
    especificacion del desarrollo
-   conceptos_basicos
+   definiciones
    especificaciones_de_cada_ensayo
    analisis_de_datos
    ampliaciones_funcionales_propuestas

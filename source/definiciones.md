@@ -1,5 +1,5 @@
-# Conceptos básicos
-En estas especificaciones se usarán reiradamente estos conceptos, con el significado que se indica:
+# Definiciones
+
 
 - ## Peticionario
 
