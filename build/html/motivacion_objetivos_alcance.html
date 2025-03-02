@@ -3,14 +3,14 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="es" data-content_root="./">
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Búsqueda &mdash; documentación de geo-design - 1.0</title>
+  <title>Aplicación de elaboración de informes geotécnicos &mdash; documentación de geo-design - 1.0</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
 
   
-    
       <script src="_static/jquery.js?v=5d32c60e"></script>
       <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
       <script src="_static/documentation_options.js?v=4936afed"></script>
@@ -18,10 +18,8 @@
       <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
       <script src="_static/translations.js?v=f85f4cfb"></script>
     <script src="_static/js/theme.js"></script>
-    <script src="_static/searchtools.js"></script>
-    <script src="_static/language_data.js"></script>
     <link rel="index" title="Índice" href="genindex.html" />
-    <link rel="search" title="Búsqueda" href="#" /> 
+    <link rel="search" title="Búsqueda" href="search.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -36,7 +34,7 @@
             geo-design
           </a>
 <div role="search">
-  <form id="rtd-search-form" class="wy-form" action="#" method="get">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
     <input type="text" name="q" placeholder="Buscar documentos" aria-label="Buscar documentos" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
@@ -69,8 +67,9 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Búsqueda</li>
+      <li class="breadcrumb-item active">Aplicación de elaboración de informes geotécnicos</li>
       <li class="wy-breadcrumbs-aside">
+            <a href="_sources/motivacion_objetivos_alcance.rst.txt" rel="nofollow"> Ver código fuente de la página</a>
       </li>
   </ul>
   <hr/>
@@ -78,18 +77,37 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <noscript>
-  <div id="fallback" class="admonition warning">
-    <p class="last">
-      Por favor, active JavaScript para habilitar la funcionalidad de búsqueda.
-    </p>
-  </div>
-  </noscript>
+  <section id="aplicacion-de-elaboracion-de-informes-geotecnicos">
+<h1>Aplicación de elaboración de informes geotécnicos<a class="headerlink" href="#aplicacion-de-elaboracion-de-informes-geotecnicos" title="Link to this heading"></a></h1>
+<section id="motivacion">
+<h2>Motivación<a class="headerlink" href="#motivacion" title="Link to this heading"></a></h2>
+<p>Se pretende facilitar la elaboración de los informes técnicos de calificación de suelos, realizados sobre la base de ensayos del propio laboratorio, atendiendo a los criterios establecidos por la normativa técnica (Pliego General de Condiciones para las Obras de Carreteras y Puentes (PG3) o Pliegos equivalentes).</p>
+<p>En la actualidad, estos informes se están elaborando  copiando y pegando datos en hojas excel. Este tratamiento es innecesariamente laborioso y propenso a errores. Generan 3 documentos .pdf que posteriormente hay que fundir en un único entregable a cliente.</p>
+<p>Por otro lado, en algunos casos es necesario realizar una simulación de la representación gráfica de algunos ensayos, para valorar cuánto se aleja el terreno de ciertas condiciones. El sistema actual  requiere ir probando sucesivamente valores numéricos en las correpondientes celdas del excel hasta encontrar el que se traduce en una forma adecuada de la curva representada. No es posible la interacción directa del usuario con la gráfica del ensayo para ajustar estos valores.</p>
+</section>
+<section id="objetivos-de-la-aplicacion">
+<h2>Objetivos de la aplicación<a class="headerlink" href="#objetivos-de-la-aplicacion" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Automatizar la elaboración del informe final pdf entregable a cliente, proporcionando los mismos datos, cálculos y representaciones gráficas que los informes generados actualmente (u otros mejorados que se determinen)</p></li>
+<li><p>Utilizar un entorno gráfico de escritorio, con formularios propios de la aplicación, que sustituya a las hojas excel actuales.</p></li>
+<li><p>Realizar simulaciones de la representación gráfica de los registros de ciertos ensayos, que requieran valorar el grado de inadecuación de alguna característica del terreno. Se podrá interactar directamente con la representación gráfica, generándose de forma inmediata el recálculo automático de los datos del ensayo simulado.</p></li>
+</ul>
+</section>
+<section id="alcance">
+<h2>Alcance<a class="headerlink" href="#alcance" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Estudios geotécnicos: <strong>Suelos</strong></p></li>
+<li><p>Tipos de ensayo comntemplados: <strong>14</strong></p></li>
+<li><p>Ensayos simulabes gráficamente: <strong>3</strong></p></li>
+</ul>
+<ul class="simple">
+<li><p>Tipo de aplicación: escritorio, con interfaz gráfica propia.</p></li>
+<li><p>Sistema operativo: <strong>Windows</strong></p></li>
+<li><p>Puede ejecutarse <strong>simultaneamente</strong> en: <strong>1</strong> equipo.</p></li>
+</ul>
+</section>
+</section>
 
-  
-  <div id="search-results">
-  
-  </div>
 
            </div>
           </div>
@@ -115,14 +133,7 @@
       jQuery(function () {
           SphinxRtdTheme.Navigation.enable(true);
       });
-  </script>
-  <script>
-    jQuery(function() { Search.loadIndex("searchindex.js"); });
-  </script>
-  
-  <script id="searchindexloader"></script>
-   
-
+  </script> 
 
 </body>
 </html>

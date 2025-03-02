@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Análisis de Datos &mdash; documentación de geo-design - 1.0</title>
+  <title>Requisitos funcionales &mdash; documentación de geo-design - 1.0</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
 
@@ -20,7 +20,8 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Índice" href="genindex.html" />
     <link rel="search" title="Búsqueda" href="search.html" />
-    <link rel="prev" title="Ensayos" href="especificaciones_de_cada_ensayo.html" /> 
+    <link rel="next" title="Definiciones" href="definiciones.html" />
+    <link rel="prev" title="Aplicación de elaboración de informes geotécnicos" href="index.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -43,20 +44,19 @@
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">Funcional</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="requisitos.html">Requisitos funcionales</a></li>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Requisitos funcionales</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#tecnologia-software-de-la-aplicacion">Tecnología software de la aplicación</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#nombre-propuesto-para-la-aplicacion">Nombre propuesto para la aplicación</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="definiciones.html">Definiciones</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ampliaciones_futuras.html">Posibles ampliaciones futuras</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Técnico</span></p>
-<ul class="current">
+<ul>
 <li class="toctree-l1"><a class="reference internal" href="especificaciones_de_cada_ensayo.html">Ensayos</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Análisis de Datos</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#entidades">Entidades</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#atributos">Atributos</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#relaciones">Relaciones</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="analisis_de_datos.html">Análisis de Datos</a></li>
 </ul>
 
         </div>
@@ -73,9 +73,9 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Análisis de Datos</li>
+      <li class="breadcrumb-item active">Requisitos funcionales</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="_sources/analisis_de_datos.md.txt" rel="nofollow"> Ver código fuente de la página</a>
+            <a href="_sources/requisitos.md.txt" rel="nofollow"> Ver código fuente de la página</a>
       </li>
   </ul>
   <hr/>
@@ -83,88 +83,54 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="analisis-de-datos">
-<h1>Análisis de Datos<a class="headerlink" href="#analisis-de-datos" title="Link to this heading"></a></h1>
-<p>(EN CONSTRUCCION)</p>
-<section id="entidades">
-<h2>Entidades<a class="headerlink" href="#entidades" title="Link to this heading"></a></h2>
-<ul class="simple">
+  <section id="requisitos-funcionales">
+<h1>Requisitos funcionales<a class="headerlink" href="#requisitos-funcionales" title="Link to this heading"></a></h1>
+<ul>
+<li><p class="rubric" id="gestion-de-entidades">Gestión de entidades</p>
+<p>La aplicación tendrá su propia gestión de:</p>
+<ul>
 <li><p>peticionarios</p></li>
 <li><p>obras</p></li>
 <li><p>muestras</p></li>
 <li><p>ensayos</p></li>
 <li><p>registros de ensayo</p></li>
 <li><p>expedientes</p></li>
-<li><p>informes</p></li>
+<li><p>informes</p>
+<p>Es decir, la aplicación permitirá el alta, baja, modificación y consulta de estos conceptos.</p>
+<p>Los datos quedarán almacenados en disco como ficheros estructurados, pero no se utilizará una base de datos en esta primera versión.</p>
+</li>
 </ul>
-<p>Para cada entidad, determinar:</p>
+</li>
+<li><p class="rubric" id="simulacion">Simulación</p>
+<p>La aplicación permitirá realizar la simulación y ajuste interactivo de respresentaciones gráficas de ciertos ensayos, almacenando los datos resultantes como registro simulado.</p>
+</li>
+<li><p class="rubric" id="informe-generado-por-la-aplicacion">Informe generado por la aplicación</p>
+<p>La aplicación generará un único documento .pdf de informe entregable a cliente por expediente, con las mismas secciones actuales:</p>
 <ul class="simple">
-<li><p>Nombre de campo</p></li>
-<li><p>descripción</p></li>
-<li><p>tipo de dato</p></li>
-<li><p>unidades de medida</p></li>
-<li><p>rango o controles de entrada del dato</p></li>
-<li><p>procedencia (usuario, fichero de configuracion, )</p></li>
-<li><p>,,,</p></li>
+<li><p>Datos del expediente (Peticionario, obra, ensayos solicitados)</p></li>
+<li><p>Antecedentes (Datos relativos a la toma de muestra)</p></li>
+<li><p>Especificaciones PG-3 para la clasificación de suelos.</p></li>
+<li><p>Conclusiones (Clasificación PG-3)</p></li>
+<li><p>Actas de los ensayos (registro de ensayo, valores calculados, gráficas si procede)</p></li>
+</ul>
+</li>
+</ul>
+<section id="tecnologia-software-de-la-aplicacion">
+<h2>Tecnología software de la aplicación<a class="headerlink" href="#tecnologia-software-de-la-aplicacion" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Python 3.10, QTSide, librerías avanzadas (matplotlib, numpy, scipy)</p></li>
+<li><p>Instalable en Windows</p></li>
 </ul>
 </section>
-<section id="atributos">
-<h2>Atributos<a class="headerlink" href="#atributos" title="Link to this heading"></a></h2>
-<p>peticionario:</p>
+<section id="nombre-propuesto-para-la-aplicacion">
+<h2>Nombre propuesto para la aplicación<a class="headerlink" href="#nombre-propuesto-para-la-aplicacion" title="Link to this heading"></a></h2>
+<p>Posibles nombres:</p>
 <ul class="simple">
-<li><p>peticionario.cif ?</p></li>
-<li><p>peticionario.nombre</p></li>
-<li><p>peticionario.dirección</p></li>
+<li><p>«GIS» (Gestión de Expedientes Geotécnicos)</p></li>
+<li><p>«GEO» (nombre genérico que premite ampliar la aplicación)</p></li>
+<li><p>«GIGA» (Gestión de Informes Técnicos Automatizada»)</p></li>
+<li><p>«GES» (Gestión de Expedientes de Suelos) - quizás demasiado limitado</p></li>
 </ul>
-<p>obra:</p>
-<ul class="simple">
-<li><p>obra.id</p></li>
-<li><p>obra.nombre</p></li>
-<li><p>obra.direccion</p></li>
-</ul>
-<p>ensayo:</p>
-<ul class="simple">
-<li><p>ensayo.id</p></li>
-<li><p>ensayo.nombre</p></li>
-<li><p>ensayo.norma</p></li>
-<li><p>ensayo.parametros_de_norma</p></li>
-<li><p>ENTIDAD NO GESTIONABLE POR USUARIO, FICH CONFIG</p></li>
-</ul>
-<p>expediente:</p>
-<ul class="simple">
-<li><p>expediente.año</p></li>
-<li><p>expediente.id_secuencial</p></li>
-<li><p>expediente.peticionario</p></li>
-<li><p>expediente.obra</p></li>
-<li><p>expediente.ensayos</p></li>
-<li><p>expediente.muestras</p></li>
-<li><p>expediente.clasificacion_final</p></li>
-</ul>
-<p>muestra:</p>
-<ul class="simple">
-<li><p>muestra.identificador_ceyge</p></li>
-<li><p>muestra.fecha_de_toma</p></li>
-<li><p>muestra.nombre</p></li>
-</ul>
-<p>registro de ensayo:</p>
-<ul class="simple">
-<li><p>registro.ensayo.id</p></li>
-<li><p>registro.muestra.identificador_ceyge</p></li>
-<li><p>registro.valores</p></li>
-<li><p>registro.es_simulado</p></li>
-</ul>
-<p>informe:</p>
-<ul class="simple">
-<li><p>informe.peticionario.cif?</p></li>
-<li><p>informe.obra.id</p></li>
-<li><p>informe.ensayos</p></li>
-<li><p>informe.MUESTRAS</p></li>
-<li><p>informe.</p></li>
-</ul>
-<p>Se definirán una serie de controles para la introducción de cada dato, minimizando la posibilidad de errores tipográficos comunes.</p>
-</section>
-<section id="relaciones">
-<h2>Relaciones<a class="headerlink" href="#relaciones" title="Link to this heading"></a></h2>
 </section>
 </section>
 
@@ -172,7 +138,8 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pie de página">
-        <a href="especificaciones_de_cada_ensayo.html" class="btn btn-neutral float-left" title="Ensayos" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Aplicación de elaboración de informes geotécnicos" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
+        <a href="definiciones.html" class="btn btn-neutral float-right" title="Definiciones" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

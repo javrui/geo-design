@@ -1,14 +1,21 @@
 .. Bienvenido a la documentación de geo-design
 
-Gestión de informes de suelos
-=============================
+.. include:: motivacion_objetivos_alcance.rst
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contenido:
+   :maxdepth: 1
+   :hidden:
+   :caption: Funcional
 
-   especificacion del desarrollo
+   requisitos
    definiciones
+   ampliaciones_futuras
+
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: Técnico
+
    especificaciones_de_cada_ensayo
    analisis_de_datos
-   ampliaciones_funcionales_propuestas
