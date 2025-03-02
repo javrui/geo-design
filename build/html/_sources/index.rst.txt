@@ -8,15 +8,16 @@
    :caption: INTRODUCCION
 
    motivacion_objetivos_alcance
-
+   definiciones
 
 .. toctree::
    :maxdepth: 1
    :hidden:
    :caption: FUNCIONAL
 
+
    requisitos
-   definiciones
+   informe
    ampliaciones_futuras
 
 

@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Requisitos funcionales &mdash; documentación de geo-design - 1.0</title>
+  <title>Informe final de resultados &mdash; documentación de geo-design - 1.0</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
       <link rel="stylesheet" type="text/css" href="_static/my_blue.css?v=14020393" />
@@ -21,8 +21,8 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Índice" href="genindex.html" />
     <link rel="search" title="Búsqueda" href="search.html" />
-    <link rel="next" title="Informe final de resultados" href="informe.html" />
-    <link rel="prev" title="Definiciones" href="definiciones.html" /> 
+    <link rel="next" title="Posibles ampliaciones futuras" href="ampliaciones_futuras.html" />
+    <link rel="prev" title="Requisitos funcionales" href="requisitos.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -51,12 +51,18 @@
 </ul>
 <p class="caption" role="heading"><span class="caption-text">FUNCIONAL</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Requisitos funcionales</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#tecnologia-software-de-la-aplicacion">Tecnología software de la aplicación</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#nombre-propuesto-para-la-aplicacion">Nombre propuesto para la aplicación</a></li>
+<li class="toctree-l1"><a class="reference internal" href="requisitos.html">Requisitos funcionales</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Informe final de resultados</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#componentes-de-un-expediente">Componentes de un expediente</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#estructura-del-informe">Estructura del informe</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#portada">Portada</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#indice">Indice</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#antecedentes">Antecedentes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#plano-de-localizacion-seccion-opcional">Plano de localización (seccion OPCIONAL)</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="informe.html">Informe final de resultados</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="ampliaciones_futuras.html">Posibles ampliaciones futuras</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">TÉCNICO</span></p>
@@ -79,9 +85,9 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Requisitos funcionales</li>
+      <li class="breadcrumb-item active">Informe final de resultados</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="_sources/requisitos.md.txt" rel="nofollow"> Ver código fuente de la página</a>
+            <a href="_sources/informe.md.txt" rel="nofollow"> Ver código fuente de la página</a>
       </li>
   </ul>
   <hr/>
@@ -89,54 +95,52 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="requisitos-funcionales">
-<h1>Requisitos funcionales<a class="headerlink" href="#requisitos-funcionales" title="Link to this heading"></a></h1>
-<ul>
-<li><p class="rubric" id="gestion-de-entidades">Gestión de entidades</p>
-<p>La aplicación tendrá su propia gestión de:</p>
-<ul>
-<li><p>peticionarios</p></li>
-<li><p>obras</p></li>
-<li><p>muestras</p></li>
-<li><p>ensayos</p></li>
-<li><p>registros de ensayo</p></li>
-<li><p>expedientes</p></li>
-<li><p>informes</p>
-<p>Es decir, la aplicación permitirá el alta, baja, modificación y consulta de estos conceptos.</p>
-<p>Los datos quedarán almacenados en disco como ficheros estructurados, pero no se utilizará una base de datos en esta primera versión.</p>
-</li>
-</ul>
-</li>
-<li><p class="rubric" id="simulacion">Simulación</p>
-<p>La aplicación permitirá realizar la simulación y ajuste interactivo de respresentaciones gráficas de ciertos ensayos, almacenando los datos resultantes como registro simulado.</p>
-</li>
-<li><p class="rubric" id="informe-generado-por-la-aplicacion">Informe generado por la aplicación</p>
-<p>La aplicación generará un único documento .pdf de informe entregable a cliente por expediente, con las mismas secciones actuales:</p>
+  <section id="informe-final-de-resultados">
+<h1>Informe final de resultados<a class="headerlink" href="#informe-final-de-resultados" title="Link to this heading"></a></h1>
+<p>El informe final de resultados, es el documento en formaro pdf que se entrega al solicitante.</p>
+<p>Cada <strong>informe</strong> es específico de un único <strong>expediente</strong>.</p>
+<section id="componentes-de-un-expediente">
+<h2>Componentes de un expediente<a class="headerlink" href="#componentes-de-un-expediente" title="Link to this heading"></a></h2>
+<p>Un <strong>expediente</strong> consta de:</p>
 <ul class="simple">
-<li><p>Datos del expediente (Peticionario, obra, ensayos solicitados)</p></li>
-<li><p>Antecedentes (Datos relativos a la toma de muestra)</p></li>
-<li><p>Especificaciones PG-3 para la clasificación de suelos.</p></li>
-<li><p>Conclusiones (Clasificación PG-3)</p></li>
-<li><p>Actas de los ensayos (registro de ensayo, valores calculados, gráficas si procede)</p></li>
-</ul>
-</li>
-</ul>
-<section id="tecnologia-software-de-la-aplicacion">
-<h2>Tecnología software de la aplicación<a class="headerlink" href="#tecnologia-software-de-la-aplicacion" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Python 3.10, QTSide, librerías avanzadas (matplotlib, numpy, scipy)</p></li>
-<li><p>Instalable en Windows</p></li>
+<li><p>1 solicitante</p></li>
+<li><p>1 obra</p></li>
+<li><p>N métodos de ensayo (de entre los 14 definidos)</p></li>
+<li><p>N muestras de la obra (-&gt; N Registros de ensayo)</p></li>
 </ul>
 </section>
-<section id="nombre-propuesto-para-la-aplicacion">
-<h2>Nombre propuesto para la aplicación<a class="headerlink" href="#nombre-propuesto-para-la-aplicacion" title="Link to this heading"></a></h2>
-<p>Posibles nombres:</p>
+<section id="estructura-del-informe">
+<h2>Estructura del informe<a class="headerlink" href="#estructura-del-informe" title="Link to this heading"></a></h2>
+<p>El informe consta de las siguientes secciones y datos por sección.
+Las secciones opcionales se indican expresamente.</p>
+<section id="portada">
+<h3>Portada<a class="headerlink" href="#portada" title="Link to this heading"></a></h3>
 <ul class="simple">
-<li><p>«GIS» (Gestión de Expedientes Geotécnicos)</p></li>
-<li><p>«GEO» (nombre genérico que premite ampliar la aplicación)</p></li>
-<li><p>«GIGA» (Gestión de Informes Técnicos Automatizada»)</p></li>
-<li><p>«GES» (Gestión de Expedientes de Suelos) - quizás demasiado limitado</p></li>
+<li><p>Nº de expediente</p></li>
+<li><p>peticionario (nombre y dirección)</p></li>
+<li><p>obra ¿nombre y dirección? (parecen confundirse ambos)</p></li>
+<li><p>ensayos (métodos) realizados</p></li>
 </ul>
+</section>
+<section id="indice">
+<h3>Indice<a class="headerlink" href="#indice" title="Link to this heading"></a></h3>
+<p>Índice del informe</p>
+</section>
+<section id="antecedentes">
+<h3>Antecedentes<a class="headerlink" href="#antecedentes" title="Link to this heading"></a></h3>
+<p>Este Texto:</p>
+<p>«A petición de la empresa <peticionario>, el día <fecha de toma de muestra>, personal del Laboratorio CEYGE, procedió a la toma de una muestra de suelo en la obra <nombre de la obra>, para la realización de los ensayos detallados en la página no 1 del presente informe.
+Las muestras ensayadas presentan las siguientes señas identificativas:»</p>
+<p>Y a continuación una tabla con columnas:</p>
+<ul class="simple">
+<li><p>«MUESTRA» (muestra.nombre)</p></li>
+<li><p>«Nº MUESTRA CEIGE» (muestra.identificador_ceyge)</p></li>
+<li><p>FECHA DE TOMA (muestra.fecha_de_toma) <strong>repetido en texto previo</strong></p></li>
+</ul>
+</section>
+<section id="plano-de-localizacion-seccion-opcional">
+<h3>Plano de localización (seccion OPCIONAL)<a class="headerlink" href="#plano-de-localizacion-seccion-opcional" title="Link to this heading"></a></h3>
+</section>
 </section>
 </section>
 
@@ -144,8 +148,8 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pie de página">
-        <a href="definiciones.html" class="btn btn-neutral float-left" title="Definiciones" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
-        <a href="informe.html" class="btn btn-neutral float-right" title="Informe final de resultados" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="requisitos.html" class="btn btn-neutral float-left" title="Requisitos funcionales" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
+        <a href="ampliaciones_futuras.html" class="btn btn-neutral float-right" title="Posibles ampliaciones futuras" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

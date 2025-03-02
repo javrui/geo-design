@@ -21,7 +21,7 @@
 
 ## Registro de ensayo
 
-  Se refiere a la ejecución de un *método de ensayo* sobre una *muestra* específica, bajo unas *variables de control*, que permite obtener unas *magnitudes medidas* y unos  *resultados*. (Son lso 3 conmceptos que a continuación se detallan).
+  Se refiere a la ejecución de un *método de ensayo* sobre una *muestra* específica, bajo unas *variables de control*, que permite obtener unas *magnitudes medidas* y unos  *resultados*. (Son los 3 conceptos que a continuación se detallan).
 
   Ejemplo: "Ensayo CBR realizado según UNE 103-502-94 sobre una muestra de suelo extraída a 1.5 m de profundidad, compactada al 95% de la densidad máxima Proctor con un contenido de humedad del 12%, inmersa en agua durante 96 horas antes del ensayo y ensayada a una velocidad de penetración de 1 mm/min, registrando la carga aplicada (kN) para cada nivel de penetración estándar (0.625 mm, 1.25 mm, 2.5 mm, 5 mm, 7.5 mm, 10 mm), obteniendo como resultado un índice CBR del X% a 2.5 mm de penetración y del Y% a 5 mm, junto con la curva carga-deformación correspondiente.".
 
