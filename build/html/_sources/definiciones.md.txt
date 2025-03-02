@@ -43,7 +43,9 @@
 
 ## Norma
 
-  Estándar técnico aplicado en la ejecución del ensayo (ejemplo: UNE 103 101:1995).
+  Estándar técnico aplicado en la ejecución del ensayo y cálculo de resultados
+
+  Ejemplo: UNE 103 101:1995.
 
 ## Expediente
 
