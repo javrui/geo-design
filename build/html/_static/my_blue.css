@@ -1,0 +1,9 @@
+h1, h2, h3, h4, h5  {
+    color: rgb(41, 128, 185) !important;
+    margin-left: 0px;  /* Sin sangría en títulos */
+}
+
+/* Margenes de párrafos: con sangría*/
+p {
+    margin-left: 20px; /* Ajusta la sangría del párrafo */
+}

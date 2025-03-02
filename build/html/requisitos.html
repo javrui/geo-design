@@ -1,0 +1,174 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="es" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Requisitos funcionales &mdash; documentación de geo-design - 1.0</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="_static/my_blue.css?v=14020393" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=4936afed"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="_static/translations.js?v=f85f4cfb"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Índice" href="genindex.html" />
+    <link rel="search" title="Búsqueda" href="search.html" />
+    <link rel="next" title="Informe final de resultados" href="informe.html" />
+    <link rel="prev" title="Definiciones" href="definiciones.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            geo-design
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar documentos" aria-label="Buscar documentos" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">INTRODUCCION</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="motivacion_objetivos_alcance.html">Aplicación de elaboración de informes geotécnicos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="definiciones.html">Definiciones</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">FUNCIONAL</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Requisitos funcionales</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#tecnologia-software-de-la-aplicacion">Tecnología software de la aplicación</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#nombre-propuesto-para-la-aplicacion">Nombre propuesto para la aplicación</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="informe.html">Informe final de resultados</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ampliaciones_futuras.html">Posibles ampliaciones futuras</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">TÉCNICO</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="especificaciones_de_cada_ensayo.html">Ensayos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="analisis_de_datos.html">Análisis de Datos</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">geo-design</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Requisitos funcionales</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/requisitos.md.txt" rel="nofollow"> Ver código fuente de la página</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="requisitos-funcionales">
+<h1>Requisitos funcionales<a class="headerlink" href="#requisitos-funcionales" title="Link to this heading"></a></h1>
+<ul>
+<li><p class="rubric" id="gestion-de-entidades">Gestión de entidades</p>
+<p>La aplicación tendrá su propia gestión de:</p>
+<ul>
+<li><p>peticionarios</p></li>
+<li><p>obras</p></li>
+<li><p>muestras</p></li>
+<li><p>ensayos</p></li>
+<li><p>registros de ensayo</p></li>
+<li><p>expedientes</p></li>
+<li><p>informes</p>
+<p>Es decir, la aplicación permitirá el alta, baja, modificación y consulta de estos conceptos.</p>
+<p>Los datos quedarán almacenados en disco como ficheros estructurados, pero no se utilizará una base de datos en esta primera versión.</p>
+</li>
+</ul>
+</li>
+<li><p class="rubric" id="simulacion">Simulación</p>
+<p>La aplicación permitirá realizar la simulación y ajuste interactivo de respresentaciones gráficas de ciertos ensayos, almacenando los datos resultantes como registro simulado.</p>
+</li>
+<li><p class="rubric" id="informe-generado-por-la-aplicacion">Informe generado por la aplicación</p>
+<p>La aplicación generará un único documento .pdf de informe entregable a cliente por expediente, con las mismas secciones actuales:</p>
+<ul class="simple">
+<li><p>Datos del expediente (Peticionario, obra, ensayos solicitados)</p></li>
+<li><p>Antecedentes (Datos relativos a la toma de muestra)</p></li>
+<li><p>Especificaciones PG-3 para la clasificación de suelos.</p></li>
+<li><p>Conclusiones (Clasificación PG-3)</p></li>
+<li><p>Actas de los ensayos (registro de ensayo, valores calculados, gráficas si procede)</p></li>
+</ul>
+</li>
+</ul>
+<section id="tecnologia-software-de-la-aplicacion">
+<h2>Tecnología software de la aplicación<a class="headerlink" href="#tecnologia-software-de-la-aplicacion" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Python 3.10, QTSide, librerías avanzadas (matplotlib, numpy, scipy)</p></li>
+<li><p>Instalable en Windows</p></li>
+</ul>
+</section>
+<section id="nombre-propuesto-para-la-aplicacion">
+<h2>Nombre propuesto para la aplicación<a class="headerlink" href="#nombre-propuesto-para-la-aplicacion" title="Link to this heading"></a></h2>
+<p>Posibles nombres:</p>
+<ul class="simple">
+<li><p>«GIS» (Gestión de Expedientes Geotécnicos)</p></li>
+<li><p>«GEO» (nombre genérico que premite ampliar la aplicación)</p></li>
+<li><p>«GIGA» (Gestión de Informes Técnicos Automatizada»)</p></li>
+<li><p>«GES» (Gestión de Expedientes de Suelos) - quizás demasiado limitado</p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pie de página">
+        <a href="definiciones.html" class="btn btn-neutral float-left" title="Definiciones" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
+        <a href="informe.html" class="btn btn-neutral float-right" title="Informe final de resultados" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Derechos de autor 2025, javrui.</p>
+  </div>
+
+  Compilado con <a href="https://www.sphinx-doc.org/">Sphinx</a> usando un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">tema</a>
+    proporcionado por <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
