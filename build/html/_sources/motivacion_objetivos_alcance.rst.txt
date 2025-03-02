@@ -14,7 +14,7 @@ Por otro lado, en algunos casos es necesario realizar una simulación de la repr
 Objetivos de la aplicación
 ---------------------------
 
-- Automatizar la elaboración del informe final pdf entregable a cliente, proporcionando los mismos datos, cálculos y representaciones gráficas que los informes generados actualmente (u otros mejorados que se determinen)
+- Automatizar la elaboración del informe final pdf entregable a cliente, proporcionando los mismos datos, cálculos y representaciones gráficas (que deberán ser concretadas y validadas en estas especificaicones)
 
 - Utilizar un entorno gráfico de escritorio, con formularios propios de la aplicación, que sustituya a las hojas excel actuales.
 
