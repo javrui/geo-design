@@ -25,7 +25,13 @@
 
   Ejemplo de registro de ensayo: "Ensayo CBR realizado según UNE 103-502-94 sobre una muestra de suelo extraída a 1.5 m de profundidad, compactada al 95% de la densidad máxima Proctor con un contenido de humedad del 12%, inmersa en agua durante 96 horas antes del ensayo y ensayada a una velocidad de penetración de 1 mm/min, registrando la carga aplicada (kN) para cada nivel de penetración estándar (0.625 mm, 1.25 mm, 2.5 mm, 5 mm, 7.5 mm, 10 mm), obteniendo como resultado un índice CBR del X% a 2.5 mm de penetración y del Y% a 5 mm, junto con la curva carga-deformación correspondiente.".
 
-  EL **registro de ensayo** abarca los conceptos "Variables de control", "Magnitudes medidas", "Resultados del ensayo" y "Norma" que a continuación se detallan:
+  EL **registro de ensayo** abarca los conceptos "Norma", "Variables de control", "Magnitudes medidas" y "Resultados del ensayo" que a continuación se detallan:
+
+## Norma
+
+  Estándar técnico aplicado en la ejecución del ensayo y cálculo de resultados
+
+  Ejemplo: UNE 103 101:1995.
 
 ## Variables de control
 
@@ -43,11 +49,6 @@
 
   Son las magnitudes derivadas del análisis del ensayo y que caracterizan el comportamiento del suelo. Ejemplo: índice CBR (%), coeficiente de permeabilidad (cm/s), cohesión (kPa), ángulo de fricción interna (°).
 
-## Norma
-
-  Estándar técnico aplicado en la ejecución del ensayo y cálculo de resultados
-
-  Ejemplo: UNE 103 101:1995.
 
 ## Expediente
 
