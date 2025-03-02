@@ -22,13 +22,14 @@ La consultar todos los expedientes que se hayan realizado, con criterios como:
 * fecha de emisión del informe
 * (otros que pudieran resultar de utilidad)
 
-## Integración de la recogida de datos desde laboratorio
+## Introducción de registros de ensayo desde laboratorio
 
-La recogida de registros de ensayo que se hace desde la aplicación, adicionalmente podría realizarse desde el mismo laboratorio,
+La recogida de registros de ensayo que se hace desde la aplicación, adicionalmente podría realizarse desde el mismo laboratorio, no ya solo con una instalación de la aplicación allí, sino:
 
 * mediante un teléfono móvil:
 
   - introduciendo datos desde pantalla del movil
+
   - recogiendo datos de display de equipos de laboratorio con la cámara del movil
 
 * mediante archivos generados por equipos de laboratorio
@@ -37,7 +38,7 @@ La recogida de registros de ensayo que se hace desde la aplicación, adicionalme
 
 Para minimizar errores
 
-## Diferenciación de perfiles de usuasrio
+## Diferenciación de perfiles de usuario
 
 Gestión de acceso a las diferentes funcionalidades de la aplicación en base a perfiles (administrativo, técnico, supervision)
 
@@ -47,4 +48,4 @@ Generación de registro de auditoría que permita identificar qué usuario ha re
 
 ## Utilización simultánea de la aplicacióna en varios puestos
 
-Si abien es posibnle utilizar la aplicación desde diferentes puestos, no es posible en esta versióón que esa utilización sea simultánea.
+Si bien es posible utilizar la aplicación desde diferentes puestos, no es posible en esta versióón que esa utilización sea simultánea, que es la ampliación de funcionalidad propuesta.
