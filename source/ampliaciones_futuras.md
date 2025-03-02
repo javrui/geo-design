@@ -17,7 +17,9 @@ La funcionalidad de la aplicación puede ampliarse en estas direcciones:
   * (otros que pudieran resultar de utilidad)
 
 - integración de la recogida de datos desde laboratorio:
-  * mediante un teléfono móvil (bien introduciendo datos desde techado en pantalla, bien mediante fotografías de displays)
+  * mediante un teléfono móvil:
+    * introduciendo datos desde pantalla del movil
+    * recogiendo datos de display de equipos de laboratorio con la cámara del movil
   * mediante archivos generados por equipos de laboratorio
 
 - corrección ortográfica en la entrada de datos
