@@ -27,7 +27,6 @@ Las secciones opcionales se indican expresamente.
 - Conclusiones del informe
 - Hoja de firmas
 
-
 ### Portada
 
 - Nº de expediente
@@ -48,45 +47,46 @@ Las muestras ensayadas presentan las siguientes señas identificativas:"
 
 Y a continuación una tabla con encabezado para estas columnas:
 
-* "MUESTRA" (muestra.nombre)
-* "Nº MUESTRA CEIGE" (muestra.identificador_ceyge)
-* "FECHA DE TOMA" (muestra.fecha_de_toma) **repetido en texto previo**
+- "MUESTRA" (muestra.nombre)
+- "Nº MUESTRA CEIGE" (muestra.identificador_ceyge)
+- "FECHA DE TOMA" (muestra.fecha_de_toma) **repetido en texto previo**
 
 donde cada fila de la tabla correpsonde a una muestra del expediente.
-
 
 ### Plano de localización (seccion OPCIONAL)
 
 Aquí la aplicación debe permitir cargar un fichero de imagen ¿o quizás varios?
 
-- plano de localizacion del terreno
-- plano de localizaciṕon de catas en el terreno
+- plano de localizacion del terreno en mapa general
+- plano de localización de catas en el terreno
 
 ### Especificaciones PG3
 
-Esto aparece en algunos informes, en otros no **¿?**
+Esta tabla, con la clasificación de terrenos PG-3, aparece en algunos informes, en otros no **¿?**
 
 ### Actas de ensayos de laboratorio
 
-De agrupan por muestra.
+Se agrupan por muestra.
+
 ¿Quizás convenga un título por muestra, y reflejarlo en el índice,si hay varias?
+
 Para cada muestra, se muestran sus M ensayos.
+
 Cada tipo de ensayo tiene su formato, tablas, gráficas, texto..
-
-
 
 ### Conclusiones del informe
 
 Tabla con encabezado para estas columnas:
 
-* "MUESTRA" (muestra.nombre)
-* "Nº MUESTRA CEIGE" (muestra.identificador_ceyge)
-* "CLASIFICACION PG-3"" (muestra.fecha_de_toma)
+- "MUESTRA" (muestra.nombre)
+- "Nº MUESTRA CEIGE" (muestra.identificador_ceyge)
+- "CLASIFICACION PG-3"" (muestra.fecha_de_toma)
 
 donde cada fila de la tabla correpsonde a una muestra del expediente.
 
 ### Hoja de firmas
 
 Incluyendo los datos de:
+
 - número de hojas del informe
-- lugar y fecha de generaciṕon del informe
+- lugar y fecha de generación del informe
