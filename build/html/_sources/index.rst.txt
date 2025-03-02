@@ -5,7 +5,15 @@
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: Funcional
+   :caption: INTRODUCCION
+
+   motivacion_objetivos_alcance
+
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: FUNCIONAL
 
    requisitos
    definiciones
@@ -15,7 +23,7 @@
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: Técnico
+   :caption: TÉCNICO
 
    especificaciones_de_cada_ensayo
    analisis_de_datos
