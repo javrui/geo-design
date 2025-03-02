@@ -25,7 +25,7 @@ Alcance
 
 - Estudios geotécnicos: **Suelos**
 - Tipos de ensayo contemplados: **14**
-- Ensayos simulables gráficamente: **3**
+- Ensayos simulables gráficamente: **3** Proctor, Próctor modificado y **¿?**
 
 * Tipo de aplicación: escritorio, con interfaz gráfica propia.
 * Sistema operativo: **Windows**
