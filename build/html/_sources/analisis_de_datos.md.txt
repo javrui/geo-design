@@ -55,13 +55,13 @@ expediente:
 - expediente.obra
 - expediente.ensayos
 - expediente.muestras
-- expediente.clasificacion_final
 
 muestra:
 
 - muestra.identificador_ceyge
-- muestra.fecha_de_toma
 - muestra.nombre
+- muestra.fecha_de_toma
+- muestra.clasificacion_pg3
 
 registro de ensayo:
 
