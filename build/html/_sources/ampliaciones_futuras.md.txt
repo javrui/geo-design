@@ -2,7 +2,7 @@
 
 La funcionalidad de la aplicación puede ampliarse en estas direcciones:
 
-- nuevos estudios geotécnicos, por ejemplo, Zahorras
+- ampliación a informes de otros estudios geotécnicos, por ejemplo, Zahorras
 
 - gestión de expedientes mediante base de datos que permita organizar y consultar todos los expedientes que hayan realizado, con criterios como:
 
@@ -16,7 +16,9 @@ La funcionalidad de la aplicación puede ampliarse en estas direcciones:
   * fecha de emisión del informe
   * (otros que pudieran resultar de utilidad)
 
-- integración con recogida de datos desde laboratorio
+- integración de la recogida de datos desde laboratorio:
+  * mediante un teléfono móvil (bien introduciendo datos desde techado en pantalla, bien mediante fotografías de displays)
+  * mediante archivos generados por equipos de laboratorio
 
 - corrección ortográfica en la entrada de datos
 

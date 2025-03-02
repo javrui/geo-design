@@ -24,7 +24,7 @@ Alcance
 -------
 
 - Estudios geotécnicos: **Suelos**
-- Tipos de ensayo comntemplados: **14**
+- Tipos de ensayo contemplados: **14**
 - Ensayos simulabes gráficamente: **3**
 
 * Tipo de aplicación: escritorio, con interfaz gráfica propia.
