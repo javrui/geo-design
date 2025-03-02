@@ -13,11 +13,19 @@
 
   Porción de terreno extraída en la obra para su estudio geotécnico.
 
+## Expediente
+
+  Conjunto estructurado de documentos, datos y registros relacionados con un estudio geotécnico. Contempla uno o mas *registros de ensayo* sobre una o mas muestras.
+
+## Informe final
+
+  Documento en formato PDF entregado al cliente, que contiene los resultados y conclusiones del estudio geotécnico.
+
 ## Método de ensayo
 
-  Conjunto de procedimientos normalizados que regulan la ejecución de una prueba experimental, incluyendo las condiciones de ensayo, los parámetros a medir, el equipamiento requerido y la metodología para la obtención e interpretación de los resultados.
+  Conjunto de procedimientos normalizados que regulan la ejecución de una prueba experimental, incluyendo las condiciones de ensayo, los parámetros a medir, el equipamiento requerido y la metodología para la obtención e interpretación de los resultados. Está definido por una norma técnica.
 
-  Está definido por una norma técnica, Ejemplo: UNE 103-502-94 (ensayo CBR en laboratorio), ASTM D3080 (ensayo de corte directo).
+  Ejemplos: UNE 103-502-94 (ensayo CBR en laboratorio), ASTM D3080 (ensayo de corte directo).
 
 ## Registro de ensayo
 
@@ -48,12 +56,3 @@
 ## Resultados del ensayo
 
   Son las magnitudes derivadas del análisis del ensayo y que caracterizan el comportamiento del suelo. Ejemplo: índice CBR (%), coeficiente de permeabilidad (cm/s), cohesión (kPa), ángulo de fricción interna (°).
-
-
-## Expediente
-
-  Conjunto estructurado de documentos, datos y registros relacionados con un estudio geotécnico. Contempla uno o mas *registros de ensayo* sobre una o mas muestras.
-
-## Informe final
-
-  Documento en formato PDF entregado al cliente, que contiene los resultados y conclusiones del estudio geotécnico.
