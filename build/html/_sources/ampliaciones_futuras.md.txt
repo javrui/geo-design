@@ -2,30 +2,49 @@
 
 La funcionalidad de la aplicación puede ampliarse en estas direcciones:
 
-- ampliación a informes de otros estudios geotécnicos, por ejemplo, Zahorras
+## Ampliación de ensayos
 
-- gestión de expedientes mediante base de datos que permita organizar y consultar todos los expedientes que hayan realizado, con criterios como:
+Ampliación a informes de otros estudios geotécnicos, por ejemplo, Zahorras
 
-  * peticionario
-  * obra
-  * expediente o rango de expedientes
-  * ensayo(s)
-  * fecha o intervalo de fechas de muestra
-  * identificador o rango de identificadores de muestra
-  * clasificación final del terreno
-  * fecha de emisión del informe
-  * (otros que pudieran resultar de utilidad)
+## Integración con base de datos
 
-- integración de la recogida de datos desde laboratorio:
-  * mediante un teléfono móvil:
-    * introduciendo datos desde pantalla del movil
-    * recogiendo datos de display de equipos de laboratorio con la cámara del movil
-  * mediante archivos generados por equipos de laboratorio
+Gestión de expedientes mediante base de datos que permita dar de alta, baja, modificar y consultar todos los elementos relativos a un expediente (desde el peticionario, hasta los mismos expedientes)
 
-- corrección ortográfica en la entrada de datos
+La consultar todos los expedientes que se hayan realizado, con criterios como:
 
-- gestión de acceso a las diferentes funcionalidades de la aplicación en base a perfiles (administrativo, técnico)
+* peticionario
+* obra
+* expediente o rango de expedientes
+* ensayo(s)
+* fecha o intervalo de fechas de muestra
+* identificador o rango de identificadores de muestra
+* clasificación final del terreno
+* fecha de emisión del informe
+* (otros que pudieran resultar de utilidad)
 
-- utilización de la aplicación simultáneamente desde varios puestos
+## Integración de la recogida de datos desde laboratorio
 
-- auditoría del usuario que realiza cada entrada o modificación de dato
+La recogida de registros de ensayo que se hace desde la aplicación, adicionalmente podría realizarse desde el mismo laboratorio,
+
+* mediante un teléfono móvil:
+
+  - introduciendo datos desde pantalla del movil
+  - recogiendo datos de display de equipos de laboratorio con la cámara del movil
+
+* mediante archivos generados por equipos de laboratorio
+
+## Corrección ortográfica de datos de entrada
+
+Para minimizar errores
+
+## Diferenciación de perfiles de usuasrio
+
+Gestión de acceso a las diferentes funcionalidades de la aplicación en base a perfiles (administrativo, técnico, supervision)
+
+## Registros de auditoría
+
+Generación de registro de auditoría que permita identificar qué usuario ha realizado qué alta/baja/modificación de dato, y cuándo.
+
+## Utilización simultánea de la aplicacióna en varios puestos
+
+Si abien es posibnle utilizar la aplicación desde diferentes puestos, no es posible en esta versióón que esa utilización sea simultánea.
