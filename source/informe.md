@@ -37,12 +37,45 @@ Este Texto:
 "A petición de la empresa <peticionario>, el día <fecha de toma de muestra>, personal del Laboratorio CEYGE, procedió a la toma de una muestra de suelo en la obra <nombre de la obra>, para la realización de los ensayos detallados en la página no 1 del presente informe.
 Las muestras ensayadas presentan las siguientes señas identificativas:"
 
-Y a continuación una tabla con columnas:
+Y a continuación una tabla con encabezado para estas columnas:
 
 * "MUESTRA" (muestra.nombre)
 * "Nº MUESTRA CEIGE" (muestra.identificador_ceyge)
-* FECHA DE TOMA (muestra.fecha_de_toma) **repetido en texto previo**
+* "FECHA DE TOMA" (muestra.fecha_de_toma) **repetido en texto previo**
+
+donde cada fila de la tabla correpsonde a una muestra del expediente.
 
 
 ### Plano de localización (seccion OPCIONAL)
 
+Aquí la aplicación debe permitir cargar un fichero de imagen ¿o quizás varios?
+
+- plano de localizacion del terreno
+- plano de localizaciṕon de catas en el terreno
+
+### Especificaciones PG3
+
+Esto aparece en algunos informes, en otros no **¿?**
+
+### Actas de ensayos de laboratorio
+
+Cada ensayo tiene su formato, tablas, gráficas
+
+¿Quizás convenga paginar por nº de muestra?
+
+### Conclusiones del informe
+
+Tabla con encabezado para estas columnas:
+
+* "MUESTRA" (muestra.nombre)
+* "Nº MUESTRA CEIGE" (muestra.identificador_ceyge)
+* "CLASIFICACION PG-3"" (muestra.fecha_de_toma)
+
+donde cada fila de la tabla correpsonde a una muestra del expediente.
+
+### Hoja de firmas
+
+Incluyendo los datos de:
+- número de hojas del informe
+- lugar y fecha de generaciṕon del informe
+-
