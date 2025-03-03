@@ -40,6 +40,7 @@
 
 Posibles nombres:
 
+- "ARES" (Análisis de Resultados y Elaboración de informeS)
 - "GIS" (Gestión de Expedientes Geotécnicos)
 - "GEO" (nombre genérico que premite ampliar la aplicación)
 - "GIGA" (Gestión de Informes Técnicos Automatizada")
