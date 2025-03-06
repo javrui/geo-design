@@ -9,17 +9,20 @@
 
   Proyecto o emplazamiento donde se toman las muestras de suelo para su análisis.
 
-  (*) ¿Se define por su nombre, o por nombre y ubicación postal?
+  Se define por su nombre, o por nombre y ubicación postal.
 
 ## Muestra
 
   Porción o porciones de terreno extraídas en la obra para su estudio geotécnico.
+  Se registran por su día de entrada en el laboratorio.
+
+  Es habitual la recogida periódica de muestras de tierras/zahorras y su análisis recurrente con ciertos ensayos para el control de obras.
 
 ## Expediente
 
   Conjunto estructurado de documentos, datos y registros relacionados con un estudio geotécnico. Contempla uno o mas *registros de ensayo* sobre una o mas muestras.
 
-  (*) ¿Contempla un solo solicitante, una sola obra, N métodos de ensayo (de entre un conjunto posible) y M muestras de una obra todas las cuales se someten a los N ensayos?
+  Atañe a un solicitante y obra concretos, con un conjunto de métodos de ensayo sobre ciertas muestras (no necesariamente sobre todas).
 
 ## Informe final
 
@@ -67,4 +70,4 @@
 
 Resultados de un ensayo obtenidos ajustando interactivamente alguna representación gráfica del mismo.
 
-(*) En suelos ¿qué ensayos requieren simulación? (Próctor, Ptóctor modificado, ¿cuáles mas?)
+En suelos requieren simulación los ensayos: Próctor, Ptóctor modificado, compresión simple, corte directo, granulometría, y CBR. ¿?
